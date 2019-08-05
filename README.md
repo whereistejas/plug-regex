@@ -15,10 +15,10 @@
 ## topics
 1. Simple word matching:
 	1. use shell vars:
-	```bash
-	foo = something
-	echo "some string" | ack "$foo" -
-	```
+		```bash
+		foo = something
+		echo "some string" | ack "$foo" -
+		```
 	1. metacharacters: `{}[]()^$.|*+?-#\`
 		1. Escaping metacharacters
 		1. Escaping escape sequences
