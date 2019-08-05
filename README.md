@@ -10,7 +10,7 @@
 	--pager=less -RFX
 	--color
 	```
-1. create temporary bash function - regex() { echo $1 | ack $2 - ; }
+1. create temporary bash function - `regex() { echo $1 | ack $2 - ; }`
 
 ## topics
 1. Simple word matching:
